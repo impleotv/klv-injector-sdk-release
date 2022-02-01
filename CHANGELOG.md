@@ -1,6 +1,10 @@
 ﻿Change Log
 ==========
 
+### Ver. 3.8.12 (01/02/22)
+- Add KeepTimeTagEmpty
+- Update remuxer
+
 ### Ver. 3.8.11 (19/12/21)
 - Update low level
 - Remuxer based on MisbCore
