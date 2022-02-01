@@ -21,14 +21,16 @@ The corresponding version of a low level binaries **StCore setup** (for redistri
 
 | Software | Version              | Download link                                                           | 
 |:-----|:-------------------------|:------------------------------------------------------------------------------|
-| **KLV Injector SDK.NET**  |  v3.8.10 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
+| **KLV Injector SDK.NET**  |  v3.8.11 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
 | **StCore**  |   | [StCoreSetup-x64.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/StCoreSetup-x64.zip) | 
 
-*Released on Tue, 23 Nov, 19:56 GMT+2*
+*Released on Sat, 18 Dec, 18:56 GMT+2*
 
 ## License
 
-**KLV Injector SDK.NET** is a node locked software. In order to get the license, please install it and fill an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
+No license is needed for SDK evaluation - it will work in demo mode (with some restrictions).
+
+**KLV Injector SDK.NET** is a node locked software, so you have to get a license (after purchasing the SDK) in order to lift demo restrictions. Please install it and fill an [online form](https://docs.google.com/forms/d/e/1FAIpQLSd_XW6bDsFce1G1cpds4gMQNlwNax0CvkWzcMbscxZ5rLaIbA/viewform), providing the ***Node Info*** string (IMPORTANT!!!) for the target machine.  
 ***Node Info*** string can be seen when you run the demo app, as shown below.  
 
 ```
