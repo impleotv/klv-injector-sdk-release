@@ -1,6 +1,9 @@
 ﻿Change Log
 ==========
 
+### Ver. 3.8.13 (17/02/22)
+- Update low level (RTSP related improvements)
+
 ### Ver. 3.8.12 (01/02/22)
 - Add KeepTimeTagEmpty
 - Update remuxer
