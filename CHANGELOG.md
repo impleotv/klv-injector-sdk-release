@@ -1,5 +1,13 @@
 ﻿Change Log
 ==========
+### Ver. 3.8.17 (28/04/22)
+- Update low level
+
+### Ver. 3.8.15 (14/03/22)
+- Update low level
+
+### Ver. 3.8.14 (27/02/22)
+- Update MisbCore (VObject)
 
 ### Ver. 3.8.13 (17/02/22)
 - Update low level (RTSP related improvements)
