@@ -2,82 +2,61 @@
 ==========
 ### Ver. 3.8.17 (28/04/22)
 - Update low level
-
 ### Ver. 3.8.15 (14/03/22)
 - Update low level
-
 ### Ver. 3.8.14 (27/02/22)
 - Update MisbCore (VObject)
-
 ### Ver. 3.8.13 (17/02/22)
 - Update low level (RTSP related improvements)
-
 ### Ver. 3.8.12 (01/02/22)
 - Add KeepTimeTagEmpty
 - Update remuxer
-
 ### Ver. 3.8.11 (19/12/21)
 - Update low level
 - Remuxer based on MisbCore
 - Remove EG601 and KlvLib dependencies
-
 ### Ver. 3.8.10 (23/11/21)
 - Update low level
 - Add time restricted license support
 - Move to vc142
-
 ### Ver. 3.8.9.1 (14/11/21)
 - Low level update. VS2019 runtime binaries
-
 ### Ver. 3.8.9.0 (14/10/21)
 - Low level update. Move to VS2019
 - Add FrameAccuracyRequiresSequenceHeaders 
 
 ### Ver. 3.8.7.1 (05/04/21)
 - Allow integers in addition to float for some tags
-
 ### Ver. 3.8.7 (31/03/21)
 - Low level update
 - Fix HLS duration (with discontinuity) 
 - Remove EnforcedDecoder
-
 ### Ver. 3.8.6 (18/01/21)
 - Add ContiguousDemuxedVideo
-
 ### Ver. 3.8.5
 - Low level update
-
 ### Ver. 3.8.4.2
 - Fix Tag 6, 7 special value
 - Fix casting for 32 bit special values
-
 ### Ver. 3.8.4.1
 - Fix Tag 20 ( Sensor Relative Roll Angle) validation
-
 ### Ver. 3.8.4
 - Injector DVR mode
 - Fix RTSP (wrong address)
-
 ### Ver. 3.8.3.1
 - Fix activation
-
 ### Ver. 3.8.3
 - Low level update
-
 ### Ver. 3.8.2
 - Low level update
-
 ### Ver. 3.8.1
 - Low level update
-
 ### Ver. 3.8.0
 - MisbCore
 - Move to .NET 4.6.1
 - decodedData now passed as JObject
-
 ### Ver. 3.7.15
 - Low level update
-
 ### Ver. 3.7.12
 - RTSP target (MPEG TS, Multicast)
 - Add frame grabber
