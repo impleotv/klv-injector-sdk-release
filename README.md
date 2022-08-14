@@ -15,16 +15,16 @@ OS: Windows 10 64 bit.
 ## Installation
 
 **KLV Injector SDK.NET** can be downloaded as a **zip** file that contains the installer. Unzip the **SetupStanagInjectorSDK.Net.zip** file and run the **SetupStanagInjectorSDK.Net.exe**.  
-The corresponding version of a low level binaries **StCore setup** (for redistribution) is also provided, along with the SDK. 
+The corresponding version of a low-level binaries **StCore setup** (for redistribution) is also provided, along with the SDK. 
 
 ## Download links
 
 | Software | Version              | Download link                                                           | 
 |:-----|:-------------------------|:------------------------------------------------------------------------------|
-| **KLV Injector SDK.NET**  |  v3.8.18 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
+| **KLV Injector SDK.NET**  |  v3.9.0 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
 | **StCore**  |   | [StCoreSetup-x64.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/StCoreSetup-x64.zip) | 
 
-*Released on Sun, 29 May, 12:33 GMT+3*
+*Released on Sun, 14 Aug, 18:48 GMT+3*
 
 ## License
 
