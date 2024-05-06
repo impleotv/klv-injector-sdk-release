@@ -34,7 +34,7 @@ No license is needed for SDK evaluation - it will work in demo mode (with some r
 ***Node Info*** string can be seen when you run the demo app, as shown below.  
 
 ```
-C:\Program Files\ImpleoTV\StanagInjectorSdkNet\bin\x64\KlvInjectorTestApp.exe
+C:\Program Files\ImpleoTV\StanagInjectorSdkNet\Samples\KlvInjectorTestApp\bin\KlvInjectorTestApp.exe
 ```
 
 <div align="center">
