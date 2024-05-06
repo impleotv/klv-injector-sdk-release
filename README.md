@@ -21,10 +21,10 @@ The corresponding version of a low-level binaries **StCore setup** (for redistri
 
 | Software | Version              | Download link                                                           | 
 |:-----|:-------------------------|:------------------------------------------------------------------------------|
-| **KLV Injector SDK.NET**  |  v3.12.1 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
+| **KLV Injector SDK.NET**  |  v4.0.2 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
 | **StCore**  |   | [StCoreSetup-x64.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/StCoreSetup-x64.zip) | 
 
-*Released on Mon, 1 Apr, 09:33 GMT+3*
+*Released on Mon, 6 May, 09:22 GMT+3*
 
 ## License
 
@@ -45,6 +45,6 @@ C:\Program Files\ImpleoTV\StanagInjectorSdkNet\bin\x64\KlvInjectorTestApp.exe
 
 Please copy-paste *Node Info*, don't send an image...
 
-You'll get back a **license** file and a **key** that can be used in ***Activate*** method
+You'll receive a license file (or both a license file and a key for legacy licensing mechanism) that can be utilized in the Activate method.
 
 > For large quantities, please contact us for an **unlocked license**.
