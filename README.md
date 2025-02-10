@@ -24,7 +24,7 @@ The corresponding version of a low-level binaries **StCore setup** (for redistri
 | **KLV Injector SDK.NET**  |  v4.2.3 | [SetupStanagInjectorSDK.Net.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/SetupStanagInjectorSDK.Net.zip) | 
 | **StCore**  |   | [StCoreSetup-x64.zip](https://github.com/impleotv/klv-injector-sdk-release/releases/latest/download/StCoreSetup-x64.zip) | 
 
-*Released on Mon, 10 Feb, 16:01 GMT+2*
+*Released on Mon, 10 Feb, 16:23 GMT+2*
 
 ## License
 
