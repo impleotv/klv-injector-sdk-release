@@ -1,174 +1,183 @@
-﻿Change Log
+Change Log
 ==========
-### Ver. 3.8.17 (28/04/22)
-- Update low level
 
-### Ver. 3.8.15 (14/03/22)
+### Ver. 4.2.10 (12/05/25)
+- Low level Ver. 1.7.13 (11/5/25)
+	- Fix decoder state machine stability while playing corrupted content
+
+### Ver. 4.2.7 (03/04/25)
+- Low level 1.7.10 
+	- Fixing demux of h265 with bad syntax
+
+### Ver. 4.2.6 (16/03/25)
+- Modify setup
+
+### Ver. 4.2.5 (24/02/25)
+- low level Ver. 1.7.9 (23/2/25)
+	- Added API for enable/disable transport discontinuity events (default is ignore discontinuity)
+
+### Ver. 4.2.4 (19/02/25)
+- Replace x32 h264 encoder with x64
+- low level Ver. 1.7.8 (19/2/25)
+	- Fixed resolution detection in HEVC
+	- supporting synthetic video insertion and dynamic input resolution change in encoder
+	- fixing a regression bug in video capture mode
+	- Supporting aspect ration dynamic change in encoder
+
+### Ver. 4.2.1 (30/01/25)
+- Add transcode mode
+- low level
+ - Adding support for AV1 in RTP input and in decoding
+ - AV1 stabilization fixes
+
+### Ver. 4.2.0 (12/01/25)
+- low level
+ - Upgrading ffmpeg to 5.1.2
+ - Use Filters v1.7
+
+### Ver. 4.1.2 (16/10/24)
+- low level
+	- Fix RTSP if more than 4 tracks
+	- Fix Directx renderer dead-lock in low delay
+
+### Ver. 4.1.1 (10/09/24)
+- low level modifications
+	- Comply with H264 SEI NAL in the beginning of PES
+
+### Ver. 4.1.0 (12/08/24)
+- low level modifications
+- MisbCore VMTI modifications
+	- Add MISB903.6 support 
+
+### Ver. 4.0.6 (26/05/24)
+- low level 
+	- Add an option to select the gpu device performing the hw accelerated decoding
+
+### Ver. 4.0.4 (13/05/24)
+- low level 
+	- Modify Log Trace to avoid crash when running in IIS
+	- Add Program stream push demux
+	- Add option for buffer writes in StCore instead of UDP input
+
+### Ver. 4.0.2 (5/05/24)
+- Modify JWT license implementation
+
+### Ver. 4.0.1 (2/05/24)
+- Change Setup structure
+- low level 
+	- Fix pause handling in VideoOverlayMixer
+	- improve D3d video renderer performance
+
+### Ver. 4.0.0 (1/05/24)
+- Move to .Net 4.7.2
+- Add JWT license
+
+- Modify low level 
+	- Add delay option in videoOverlayMixer
+	- Add option to override aspect ratio in VideoOverlayMixer
+	- Improvements in presentation filters
+
+### Ver. 3.12.0 (26/03/24)
+- Modify NodeInfo format
+Low level:
+- Improving performance in D3d rendering
+- Fixing VideoOverlayMixer in handling I420 pixel format
+
+### Ver. 3.11.1 (22/02/24)
 - Update low level
+- Add option for async callback of sync frames
+- Modify StCore interface
+
+### Ver. 3.10.11 (27/06/23)
+- Low level update. Decoder memory leak fix
+### Ver. 3.10.0 (23/05/23)
+- Low level update. FFmpeg version change
+- Add api for configuring decoding hw acceleration type
+### Ver. 3.9.4 (03/04/23)
+- Update Low level
+- Fix Metadata_AU_cell () in KlvSource filter. Applicable to SYNC_KLV use case
+### Ver. 3.9.0 (14/08/22)
+- Add tags 115, 116, 121, 122, 128, 138, 139
+- Update MisbCore (fix VMTI target id)
+- Update low level 
 
 ### Ver. 3.8.14 (27/02/22)
 - Update MisbCore (VObject)
 
-### Ver. 3.8.13 (17/02/22)
-- Update low level (RTSP related improvements)
-
-### Ver. 3.8.12 (01/02/22)
-- Add KeepTimeTagEmpty
-- Update remuxer
-
 ### Ver. 3.8.11 (19/12/21)
 - Update low level
-- Remuxer based on MisbCore
-- Remove EG601 and KlvLib dependencies
 
 ### Ver. 3.8.10 (23/11/21)
 - Update low level
 - Add time restricted license support
 - Move to vc142
 
-### Ver. 3.8.9.1 (14/11/21)
-- Low level update. VS2019 runtime binaries
-
-### Ver. 3.8.9.0 (14/10/21)
-- Low level update. Move to VS2019
-- Add FrameAccuracyRequiresSequenceHeaders 
-
-### Ver. 3.8.7.1 (05/04/21)
-- Allow integers in addition to float for some tags
-
-### Ver. 3.8.7 (31/03/21)
+### Ver. 3.8.9 (25/10/21)
 - Low level update
-- Fix HLS duration (with discontinuity) 
-- Remove EnforcedDecoder
+
+### Ver. 3.8.8
+- Add FrameAccuracyRequiresSequenceHeaders config 
+- Low level update
+
+### Ver. 3.8.7 (25/03/21)
+- Low level update
 
 ### Ver. 3.8.6 (18/01/21)
 - Add ContiguousDemuxedVideo
 
-### Ver. 3.8.5
+### Ver. 3.8.5 (15/01/21)
 - Low level update
-
-### Ver. 3.8.4.2
-- Fix Tag 6, 7 special value
-- Fix casting for 32 bit special values
-
-### Ver. 3.8.4.1
-- Fix Tag 20 ( Sensor Relative Roll Angle) validation
+- Fix Big Endian Unicode in UTF-16
 
 ### Ver. 3.8.4
-- Injector DVR mode
-- Fix RTSP (wrong address)
-
-### Ver. 3.8.3.1
-- Fix activation
-
-### Ver. 3.8.3
+- Add RTSP support
+- Enable FIPS Compliant authorization
 - Low level update
 
 ### Ver. 3.8.2
 - Low level update
 
 ### Ver. 3.8.1
-- Low level update
+- MisbCore changes.
+- RAW Klv buffer processing
 
 ### Ver. 3.8.0
 - MisbCore
 - Move to .NET 4.6.1
 - decodedData now passed as JObject
 
+### Ver. 3.7.16
+- Injector low latency mode
 
-### Ver. 3.7.15
+### Ver. 3.7.14,1
 - Low level update
 
+### Ver. 3.7.14
+- Low level update
+
+### Ver. 3.7.13
+- Fix grabber (RGB)
+
 ### Ver. 3.7.12
-- RTSP target (MPEG TS, Multicast)
-- Add frame grabber
+- Add grabber
 
 ### Ver. 3.7.11
 - Low delay fixes
 - Adding option to modify incoming PTS in Injector according to local CPU time
 
 ### Ver. 3.7.10
-- Low level update
-- 0.0.0.0 binding
-
-### Ver. 3.7.9
-- Low level update
-
-### Ver. 3.7.7
-- Encoder profile and framerate changes
-- Low level update - StCore 3.7.7
+- Low level update 
+- Add compress video - VideoCaptureMode
 
 ### Ver. 3.7.6
-- Low level changes (Injector robustness)
-- Fix missing Klv after seek
-- Fix audio pid mux
-
-### Ver. 3.7.5
-- Low level change (Klv serialization)
+- Low level update 
+- Fix empty packet exception
 
 ### Ver. 3.7.3
-- Logger added to the constructor
-
-### Ver. 3.7.1
-- Add  WritePacketToOutputPid(int pid, Bitmap bmp, Int64 timeStampInUnits = -1) method
+- Add Raw Frame encoding to Injector
 
 ### Ver. 3.7.0
-- BER-OID tags
-
-### Ver. 3.6.1
-- Synthetic Video fixes in low level filters and StCore.dll
-
-### Ver. 3.6.0
-- Low level update
-- Fix high bitrate injest
-- Fix EC_COMPLETE without video decoding
-
-### Ver. 3.5.6
-- Fixes in synthetic video support
-
-### Ver. 3.5.5
-- Fixes in synthetic video support and CUDA accelerated decoding
-
-### Ver. 3.5.3
-- Several low level improvements. This includes better performance in snapshot, and fixing a bug in false positive detection of source timeout
-- Add SetDefaultPacket(JObject pckt) method
-- Add UpdateDefaultPacketTime method
-
-### Ver. 3.5.2
-- Fix StCore release stuck
-- Low lelvel update and interface change (add)
-- Fix segment duration (sec instead of ms)
+- Low level SDK update
 
 ### Ver. 3.5.1
-- StCore compiled with vc141 and boost 1.71
-
-### Ver. 3.4.4
-- Low level updates
-
-### Ver. 3.4.3
-- Low level updates
-- 601 tags
-
-### Ver. 3.4.2
-- Low level updates
-
-### Ver. 3.4.1
--StCore update
-
-### Ver. 3.4.0
--StCore update
-
-### Ver. 3.2.2
-- Encode packet added to remux
-
-### Ver. 3.2.0
-- Low level updates
-
-### Ver. 3.0.36
-- Low level updates
-
-### Ver. 3.0.35
-- Low level updates
-
-### Ver. 3.0.32
-- Fix a -1 timestamp increment
+- Initial version
